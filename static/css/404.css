@@ -1,0 +1,35 @@
+body {
+  font-size:137.5%;
+  font-family:'krabby', 'Open Sans', 'Segoe UI Light', Segoe UI, Verdana;
+  background:#191919;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em;
+}
+
+@font-face {
+  font-family: 'krabby';
+  src: url('/static/krabbypatty.ttf');
+}
+
+a,a:visited {
+  color:inherit;
+  -webkit-transition:all .3s ease;
+  -moz-transition:all .3s ease;
+  -ms-transition:all .3s ease;
+  -o-transition:all .3s ease;
+  transition:all .3s ease;
+  text-decoration:underline;
+  text-decoration-color:#FF6600;
+}
+
+a:hover, a:active {
+  color:#FF6600;
+}
+
+img {
+  max-width: 100%;
+  margin: 1em;
+}
