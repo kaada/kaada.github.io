@@ -124,11 +124,10 @@ h3 {
   position:relative;
   overflow:hidden;
   color: #FFFFFF;
-  max-width: 80em;
 }
 
 #home, #about, #projects, #contact, #header-content {
-  width:85%;
+  width:80%;
   margin:0 auto;
 }
 
@@ -327,6 +326,10 @@ h3 {
 @media only screen and (max-width: 600px){
   body {
     margin-top:1.5em;
+  }
+
+  #home, #about, #projects, #contact, #header-content {
+    width:85%;
   }
 
   #header-content {
