@@ -233,9 +233,11 @@ h3 {
   display:inline-block;
 }
 
+.navigation li + li {
+  margin-left: 1em;
+}
+
 .navigation a {
-  border-bottom:0;
-  margin-left:.5em;
   padding:.25em .5em;
 }
 
@@ -314,16 +316,16 @@ h3 {
     margin-top:1.5em;
   }
 
-  #home, #about, #projects, #contact, #header-content {
+  #home, #about, #projects, #contact {
     width:85%;
   }
 
   #header-content {
     justify-content: center;
+    width: 100%;
   }
 
   .navigation ul {
-    font-size:0.47em;
     text-align:center;
   }
 
@@ -336,15 +338,21 @@ h3 {
     padding:1em 0;
   }
 
-  .header {
-    height:1.5em;
-  }
-
   .logo {
     display:none;
   }
 
   .on-social-media {
     margin-bottom:1em;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .header {
+    height: 1.7em;
+  }
+
+  .navigation ul {
+    font-size:.5em;
   }
 }
