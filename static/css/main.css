@@ -88,10 +88,13 @@ h3 {
 }
 
 #home {
-  padding: 2.5em 0 1.5em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: #FFFFFF;
   line-height: 1.25;
   text-shadow: 1px 1px hsla(0,0%,0%,.3),2px 2px hsla(0,0%,0%,.3);
+  height: 90vh;
 }
 
 #home .page-title {
@@ -99,13 +102,16 @@ h3 {
   margin: 0;
 }
 
-#home .subtitle {
-  margin-top: 6em;
-}
-
 .page-title {
   font-size: 3em;
   color: #FFFFFF;
+}
+
+.subtitle {
+  margin-top: 40vh;
+  font-style: italic;
+  font-weight: 300;
+  text-shadow: 1px 1px hsla(0,0%,0%,.3);
 }
 
 #about, #contact, #projects {
@@ -258,14 +264,6 @@ h3 {
 .container {
   background: hsla(0,0%,0%,.5);
   padding: 1.5em;
-}
-
-.subtitle {
-  margin-top: 1.333333em;
-  font-size: .375em;
-  font-style: italic;
-  font-weight: 300;
-  text-shadow: 1px 1px hsla(0,0%,0%,.3);
 }
 
 .on-social-media {
